@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/circleFragment">
+
+    <fragment
+        android:id="@+id/circleFragment"
+        android:name="com.example.testapp.CircleFragment"
+        android:label="宝宝圈"
+        tools:layout="@layout/circle_fragment" />
+        <action
+            android:id="@+id/action_circleFragment_to_circleFragment2"
+            app:destination="@id/circleFragment2" />
+        <fragment
+            android:id="@+id/searchFragment"
+            android:name="com.example.testapp.SearchFragment"
+            android:label="发现"
+            tools:layout="@layout/search_fragment" />
+        <fragment
+            android:id="@+id/babbyFragment"
+            android:name="com.example.testapp.BabbyFragment"
+            android:label="宝宝"
+            tools:layout="@layout/babby_fragment" />
+        <fragment
+            android:id="@+id/meFragment"
+            android:name="com.example.testapp.MeFragment"
+            android:label="我的"
+            tools:layout="@layout/me_fragment" >
+            <action
+                android:id="@+id/action_meFragment_to_meFragmentDevice"
+                app:destination="@id/meFragmentDevice"
+                app:enterAnim="@anim/nav_default_enter_anim"
+                app:exitAnim="@anim/nav_default_exit_anim" />
+            <action
+                android:id="@+id/action_meFragment_to_meFragmentBaby"
+                app:destination="@id/meFragmentBaby"
+                app:enterAnim="@anim/nav_default_enter_anim"
+                app:exitAnim="@anim/nav_default_exit_anim" />
+            <action
+                android:id="@+id/action_meFragment_to_meFragmentUpdate"
+                app:destination="@id/meFragmentUpdate"
+                app:enterAnim="@anim/nav_default_enter_anim"
+                app:exitAnim="@anim/nav_default_exit_anim" />
+            <action
+                android:id="@+id/action_meFragment_to_meFragmentBuy"
+                app:destination="@id/meFragmentBuy"
+                app:enterAnim="@anim/nav_default_enter_anim"
+                app:exitAnim="@anim/nav_default_exit_anim" />
+            <action
+                android:id="@+id/action_meFragment_to_meFragmentHelp"
+                app:destination="@id/meFragmentHelp"
+                app:enterAnim="@anim/nav_default_enter_anim"
+                app:exitAnim="@anim/nav_default_exit_anim" />
+        </fragment>
+    <fragment
+        android:id="@+id/meFragmentBaby"
+        android:name="com.example.testapp.meFragmentBaby"
+        android:label="修改宝宝信息"
+        tools:layout="@layout/fragment_me_baby">
+        <action
+            android:id="@+id/action_meFragmentBaby_to_meFragment"
+            app:destination="@id/meFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/meFragmentDevice"
+        android:name="com.example.testapp.meFragmentDevice"
+        android:label="设备管理"
+        tools:layout="@layout/fragment_me_device">
+        <action
+            android:id="@+id/action_meFragmentDevice_to_meFragment"
+            app:destination="@id/meFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/meFragmentBuy"
+        android:name="com.example.testapp.meFragmentBuy"
+        android:label="纸尿裤购买"
+        tools:layout="@layout/fragment_me_buy">
+        <action
+            android:id="@+id/action_meFragmentBuy_to_meFragment"
+            app:destination="@id/meFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/meFragmentHelp"
+        android:name="com.example.testapp.meFragmentHelp"
+        android:label="帮助与反馈"
+        tools:layout="@layout/fragment_me_help">
+        <action
+            android:id="@+id/action_meFragmentHelp_to_meFragment"
+            app:destination="@id/meFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/meFragmentUpdate"
+        android:name="com.example.testapp.meFragmentUpdate"
+        android:label="检查更新"
+        tools:layout="@layout/fragment_me_update">
+        <action
+            android:id="@+id/action_meFragmentUpdate_to_meFragment"
+            app:destination="@id/meFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/circleFragment2"
+        android:name="com.example.testapp.CircleFragment2"
+        android:label="circle_fragment2"
+        tools:layout="@layout/circle_fragment2" >
+        <action
+            android:id="@+id/action_circleFragment2_to_circleFragment"
+            app:destination="@id/circleFragment" />
+    </fragment>
+</navigation>

@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">宝宝监护</string>
+    <string name="babby_123">宝宝123</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_circle">Circle</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <!--  主界面  -->
+    <string name="user_name_text">洋洋</string>
+    <string name="user_account_text">baobaojianhu</string>
+    <string name="user_baby_text">我的宝宝</string>
+    <string name="manage_baby_text">管理宝宝</string>
+    <string name="change_baby">修改宝宝信息/状态</string>
+    <string name="baby_name_text">洋洋</string>
+    <string name="baby_age_text">1岁</string>
+    <string name="button1">设备管理</string>
+    <string name="button2">纸尿裤购买</string>
+    <string name="button3">检查更新</string>
+    <string name="button4">帮助与反馈</string>
+    <!--  修改宝宝信息界面  -->
+    <string name="unfilled">未填写</string>
+    <string name="baby">宝宝</string>
+    <string name="baby_sex">宝宝性别</string>
+    <string name="baby_birth">宝宝生日</string>
+    <string name="baby_weight">宝宝体重(kg)</string>
+    <string name="baby_high">宝宝身高(cm)</string>
+    <string name="male">男</string>
+    <string name="female">女</string>
+    <!--  设备界面  -->
+    <string name="electric_quantity">电池电量</string>
+    <string name="ninety_percent">90%</string>
+    <string name="buy_new_device">购买新设备</string>
+    <string name="production_date">出厂日期</string>
+    <string name="two_thousand">2020/10/01</string>
+    <string name="warranty">保修期</string>
+    <string name="two_year">两年</string>
+    <string name="ask_for_repaired">申请维修</string>
+    <string name="confirm">确定</string>
+    <!--  反馈界面  -->
+    <string name="feedback_type">反馈类型</string>
+    <string name="account_problem">账号问题</string>
+    <string name="function_advice">功能建议</string>
+    <string name="experience_problem">体验问题</string>
+    <string name="detail_advice">详细建议</string>
+    <string name="contact_">联系方式</string>
+    <string name="return_feedback">留言将在3日内回复</string>
+
+    <!--  检查更新界面  -->
+    <string name="version">版本号 1.1.1</string>
+    <string name="ask_for_update">检测更新</string>
+    <string name="lastest_version">已是最新版</string>
+
+    <!--  购买纸尿裤界面  -->
+
+
+
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/circleFragment"
+        android:icon="@drawable/ic_baseline_favorite_24"
+        android:title="宝宝圈" />
+    <item
+        android:id="@+id/searchFragment"
+        android:icon="@drawable/ic_baseline_search_24"
+        android:title="发现" />
+    <item
+        android:id="@+id/babbyFragment"
+        android:icon="@drawable/ic_baseline_accessibility_new_24"
+        android:title="宝宝" />
+    <item
+        android:id="@+id/meFragment"
+        android:icon="@drawable/ic_baseline_house_siding_24"
+        android:title="我的" />
+</menu>
